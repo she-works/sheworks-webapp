@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>She Works Journal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fffaf7;
+      color: #333;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: #fff0ea;
+      border-bottom: 1px solid #e0d6d0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .category {
+      padding: 10px 20px;
+      background-color: #ffebe2;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    .category:hover {
+      background-color: #ffdacc;
+    }
+    .articles {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .article {
+      background-color: #ffffff;
+      border: 1px solid #f0e6e0;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    .article h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .article p {
+      margin: 0 0 10px;
+    }
+    .article a {
+      text-decoration: none;
+      color: #e06c5b;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>She Works: Бизнес-журнал</h1>
+  </header>
+  <section class="categories">
+    <div class="category">Кейсы</div>
+    <div class="category">Стиль</div>
+    <div class="category">Мотивация</div>
+    <div class="category">Письма от редакции</div>
+  </section>
+  <section class="articles">
+    <div class="article">
+      <h2>Как основать бренд с нуля и не выгореть</h2>
+      <p>История девушки, которая оставила корпорацию и запустила бизнес на маркетплейсах. 2 млн оборота за 3 месяца — без инвестиций.</p>
+      <a href="#">Читать статью</a>
+    </div>
+    <div class="article">
+      <h2>Минимализм в бизнес-стиле</h2>
+      <p>Почему однотонные костюмы работают лучше презентации и как выглядеть уверенно, даже если ты не спала ночь перед питчем.</p>
+      <a href="#">Читать статью</a>
+    </div>
+  </section>
+</body>
+</html>
