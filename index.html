@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SHE WORKS</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #fff;
+      color: #000;
+    }
+    .container {
+      padding: 20px;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .description {
+      font-size: 14px;
+      max-width: 90%;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+      padding: 0 24px;
+    }
+    .menu a {
+      text-decoration: none;
+      color: black;
+      font-size: 14px;
+    }
+    .brand-link {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 16px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand-link" onclick="window.location.href='sheworks.html'">SHE WORKS</div>
+    <div class="description">
+      Онлайн-журнал и комьюнити для женщин, которые осознанно строят бизнес. Про деньги, стиль, запуски и реальность, где женщина — CEO, а не просто вдохновительница.
+    </div>
+    <video autoplay muted loop>
+      <source src="главное видео.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="menu">
+      <a href="#">She Builds</a>
+      <a href="#">She Starts</a>
+      <a href="#">She Looks</a>
+      <a href="#">She Feels</a>
+      <a href="#">She Travel</a>
+    </div>
+  </div>
+</body>
+</html>
