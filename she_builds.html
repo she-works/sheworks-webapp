@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -10,41 +9,82 @@
       font-family: Georgia, serif;
       margin: 0;
       padding: 0;
-      background-color: #fff;
-      text-align: center;
+      background-color: #ffffff;
+      color: #000000;
     }
+
     .header {
       background-color: #222052;
-      color: white;
+      color: #ffffff;
       padding: 20px;
+      text-align: center;
       font-size: 24px;
       font-weight: bold;
     }
+
     .description {
       padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      max-width: 480px;
+      margin: 0 auto;
     }
-    .back-link {
+
+    .article-preview {
+      margin: 40px auto;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .article-preview img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .article-preview h3 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .article-preview p {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .back-button {
       display: inline-block;
-      margin-top: 30px;
-      padding: 10px 20px;
+      margin: 40px auto;
+      padding: 10px 16px;
       border: 1px solid #ccc;
       border-radius: 6px;
       font-size: 14px;
       text-decoration: none;
       color: #000;
       font-family: Georgia, serif;
+      text-align: center;
     }
-    .carousel {
-      margin-top: 40px;
-      font-style: italic;
-      color: #999;
+
+    .back-button:hover {
+      background-color: #f2f2f2;
     }
   </style>
 </head>
 <body>
   <div class="header">She Builds</div>
-  <div class="description">Реальные кейсы бизнес-вумен. Запуски, провалы, прибыль. Интервью, дневники, обзоры.</div>
-  <div class="carousel">(Здесь будет карусель статей)</div>
-  <a href="index.html" class="back-link">Вернуться на главный экран</a>
+  <div class="description">
+    Реальные кейсы бизнес-вумен. Запуски, провалы, прибыль. Интервью, дневники, обзоры.
+  </div>
+
+  <!-- 🐝 Превью статьи -->
+  <div class="article-preview">
+    <img src="лимонад.png" alt="Лимонад Микайлы Улмер" />
+    <h3>Лимонад, пчёлы и дело с миссией: как Микайла Улмер построила бренд с душой</h3>
+    <p>История девушки, чей лимонад стал бизнесом и делом для спасения пчёл и будущего</p>
+  </div>
+
+  <!-- 🔙 Кнопка назад -->
+  <div style="text-align: center;">
+    <a href="index.html" class="back-button">Вернуться на главный экран</a>
+  </div>
 </body>
 </html>
