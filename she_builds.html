@@ -1,88 +1,71 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>She Builds</title>
   <style>
     body {
-      font-family: Georgia, serif;
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      color: #000000;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #fefefe;
+      max-width: 900px;
+      margin: auto;
+      color: #222;
     }
-
-    .header {
-      background-color: #222052;
-      color: #ffffff;
+    h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    .preview {
+      border: 1px solid #eee;
       padding: 20px;
-      text-align: center;
-      font-size: 24px;
-      font-weight: bold;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      background: #fff;
+      transition: box-shadow 0.3s ease;
     }
-
-    .description {
-      padding: 20px;
-      text-align: center;
-      font-size: 14px;
-      max-width: 480px;
-      margin: 0 auto;
+    .preview:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
-
-    .article-preview {
-      margin: 40px auto;
-      max-width: 400px;
-      text-align: center;
-    }
-
-    .article-preview img {
+    .preview img {
       width: 100%;
-      border-radius: 8px;
+      border-radius: 12px;
+      margin-bottom: 16px;
     }
-
-    .article-preview h3 {
-      font-size: 20px;
-      margin-top: 10px;
+    .preview h2 {
+      margin-top: 0;
+      font-size: 24px;
+      margin-bottom: 10px;
     }
-
-    .article-preview p {
-      font-size: 14px;
-      color: #444;
+    .preview p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.5;
     }
-
-    .back-button {
-      display: inline-block;
-      margin: 20px auto;
-      padding: 10px 16px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 14px;
+    a {
       text-decoration: none;
-      color: #000;
-      font-family: Georgia, serif;
-      text-align: center;
+      color: inherit;
     }
-
-    .back-button:hover {
-      background-color: #f2f2f2;
+    .back {
+      margin-top: 40px;
+      display: inline-block;
+      font-size: 14px;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <div class="header">She Builds</div>
-  <div class="description">
-    Реальные кейсы бизнес-вумен. Запуски, провалы, прибыль. Интервью, дневники, обзоры.
-  </div>
-  <!-- 🐝 Превью статьи -->
-  <div class="article-preview">
-    <img src="лимонад.png" alt="Лимонад Микайлы Улмер" />
-    <h3>Лимонад, пчёлы и дело с миссией: как Микайла Улмер построила бренд с душой</h3>
-    <p>История девушки, чей лимонад стал бизнесом и делом для спасения пчёл и будущего</p>
-  </div>
-  <!-- 🔙 Кнопка назад -->
-  <div style="text-align: center;">
-    <a href="index.html" class="back-button">Вернуться на главный экран</a>
-  </div>
+  <h1>She Builds</h1>
+
+  <a href="mikaila_article.html">
+    <div class="preview">
+      <img src="images/лимонад.png" alt="Лимонад Микайлы Улмер" />
+      <h2>Лимонад, пчёлы и дело с миссией: как Микайла Улмер построила бренд с душой</h2>
+      <p>История девушки, чей лимонад стал бизнесом и делом для спасения пчёл и будущего</p>
+    </div>
+  </a>
+
+  <a href="index.html" class="back">← Вернуться на главный экран</a>
 </body>
 </html>
